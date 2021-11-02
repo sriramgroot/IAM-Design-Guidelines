@@ -8,4 +8,21 @@
 - Form field group
     - Is label's font family, colour, size, letter spacing & line height are same
     - Is input field's width, height, background & border color and border-radius are same
-    - Is positive & negative use-cases handled **Eg: Color**
+    - Is positive & negative use-cases handled **Eg: Color of specific label & input field should be made as negative impact (It should be purely based on the design specifications)**
+    - Is password field has show/hide feature
+        - Whether values in password field getting merged with icon of show/hide feature
+    - Error messages
+        - Is error message shown as toaster message
+            - Is the position, background colour, font family, font size & font color for the toaster is as expected
+        - Is error message shown as individual text message
+            - Is error messages appearing for individual or commonly for all fields
+                - Is error text's font family, size, line height, letter spacing and spacing above & below are same
+                - Is error text's gets hidden while user types on the input field
+    - Button
+       - Is font family, colour, size, letter spacing, line height, background colour & border properties are same
+    - Helper Text
+        - Is font family, colour, size, letter spacing & line height are same 
+    - Fixed sections
+        - Is there any position fixed section available for Responsive view **(Mobile, Ipad & Desktop)**
+            - Whether section is positioned for responsive views individually ?
+                - If yes, whether it is handled & verified properly in all screen sizes & orientation
