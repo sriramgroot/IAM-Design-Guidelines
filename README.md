@@ -36,6 +36,11 @@
                 - If yes, whether it is handled & verified properly in all screen sizes & orientation
 
 #### 2) Browser based checks
+- Whether element styling and positioning is same in all browser
+- Whether all the **Pseudo-class** properties are handled to support lower version of browsers
+    **Note:**
+    1) Google Chrome, Mozilla Firefox, Safari, Microsoft Edge & Opera are the browsers to verified and its mandatory.
+    2) Also it should be checked Platform specific like Windows, iOS & Android
 
 #### 3) Accessibility Checks
 - Keyboard based actions
