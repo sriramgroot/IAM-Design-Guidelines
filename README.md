@@ -35,6 +35,11 @@
             - Whether section is positioned for responsive views individually ?
                 - If yes, whether it is handled & verified properly in all screen sizes & orientation
 
+<br/>
+
+---------------------------------
+<br/>
+
 #### 2) Browser based checks
 - Whether element styling and positioning is same in all browser
 - Whether all the **Pseudo-class** properties are handled to support lower version of browsers
@@ -42,12 +47,22 @@
     1) Google Chrome, Mozilla Firefox, Safari, Microsoft Edge & Opera are the browsers to verified and its mandatory.
     2) Also it should be checked Platform specific like Windows, iOS & Android
 
+<br/>
+
+---------------------------------
+<br/>
+
 #### 3) Accessibility Checks
 - Keyboard based actions
     - Is the user's element selection using **TAB** key is enabled in browser. **Eg: If the user uses tab button elements will be highlighted. So feature should be enabled for sure, until unless client request's to remove this feature**
 - Window resize actions
     - Whether all elements are in proper position while the window is resized manually by the user from large to smaller screens and vice versa
     - Elements do have smooth experience on automatic position changes on the resize events
+
+<br/>
+
+---------------------------------
+<br/>
 
 #### 4) Usability Checks
 - Form submission
