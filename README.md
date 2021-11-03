@@ -10,10 +10,13 @@
 - Form field group
     - Is label's font family, colour, size, letter spacing & line height are same
     - Is input field's width, height, background & border color and border-radius are same
-    - Is positive & negative use-cases handled **Eg: Color of specific label & input field should be made as negative impact (It should be purely based on the design specifications)**
-    [*Note: Should be handled all respective places*]
+    - Is positive & negative use-cases handled  
+    **Eg: Color of specific label & input field should be made as negative impact (It should be purely based on the design specifications)**
+    
+    [***Note:** Should be handled all respective places*]
     - Is **Pseudo-class** features are handled ? **Eg: focus, hover, disabled should mainly be handled**
-    [*Note: Should be handled all respective places*]
+    
+    [***Note:** Should be handled all respective places*]
     - Is password field has show/hide feature
         - Whether values in password field getting merged with icon of show/hide feature
     - Error messages
@@ -27,7 +30,8 @@
        - Is font family, colour, size, letter spacing, line height, background colour & border properties are same
     - Checkbox
         - Is the checkbox element in the screen should be selected by default
-        [*Note: If yes, styling states should be compared with **Pseudo-class** options*]
+        
+        [***Note:** If yes, styling states should be compared with **Pseudo-class** options*]
     - Helper Text
         - Is font family, colour, size, letter spacing & line height are same 
     - Fixed sections
@@ -43,6 +47,7 @@
 #### 2) Browser based checks
 - Whether element styling and positioning is same in all browser
 - Whether all the **Pseudo-class** properties are handled to support lower version of browsers
+
     **Note:**
     1) Google Chrome, Mozilla Firefox, Safari, Microsoft Edge & Opera are the browsers to verified and its mandatory.
     2) Also it should be checked Platform specific like Windows, iOS & Android
@@ -54,7 +59,8 @@
 
 #### 3) Accessibility Checks
 - Keyboard based actions
-    - Is the user's element selection using **TAB** key is enabled in browser. **Eg: If the user uses tab button elements will be highlighted. So feature should be enabled for sure, until unless client request's to remove this feature**
+    - Is the user's element selection using **TAB** key is enabled in browser.  
+    **Eg: If the user uses tab button elements will be highlighted. So feature should be enabled for sure, until unless client request's to remove this feature**
 - Window resize actions
     - Whether all elements are in proper position while the window is resized manually by the user from large to smaller screens and vice versa
     - Elements do have smooth experience on automatic position changes on the resize events
@@ -67,4 +73,5 @@
 #### 4) Usability Checks
 - Form submission
     - Whether the information that user types in the input field remains preserved in form field while the submission gets failed
-    *Note: These information should be preserved until the user refreshes the page manually*
+    
+    ***Note:** These information should be preserved until the user refreshes the page manually*
