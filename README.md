@@ -10,7 +10,8 @@
 - Form field group
     - Is label's font family, colour, size, letter spacing & line height are same
     - Is input field's width, height, background & border color and border-radius are same
-    - Is positive & negative use-cases handled **Eg: Color of specific label & input field should be made as negative impact (It should be purely based on the design specifications)**
+    - Is positive & negative use-cases handled  
+    **Eg: Color of specific label & input field should be made as negative impact (It should be purely based on the design specifications)**
     
     [***Note:** Should be handled all respective places*]
     - Is **Pseudo-class** features are handled ? **Eg: focus, hover, disabled should mainly be handled**
@@ -58,7 +59,8 @@
 
 #### 3) Accessibility Checks
 - Keyboard based actions
-    - Is the user's element selection using **TAB** key is enabled in browser. **Eg: If the user uses tab button elements will be highlighted. So feature should be enabled for sure, until unless client request's to remove this feature**
+    - Is the user's element selection using **TAB** key is enabled in browser.  
+    **Eg: If the user uses tab button elements will be highlighted. So feature should be enabled for sure, until unless client request's to remove this feature**
 - Window resize actions
     - Whether all elements are in proper position while the window is resized manually by the user from large to smaller screens and vice versa
     - Elements do have smooth experience on automatic position changes on the resize events
@@ -72,4 +74,4 @@
 - Form submission
     - Whether the information that user types in the input field remains preserved in form field while the submission gets failed
     
-    *Note: These information should be preserved until the user refreshes the page manually*
+    ***Note:** These information should be preserved until the user refreshes the page manually*
