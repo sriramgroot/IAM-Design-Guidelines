@@ -75,3 +75,8 @@
     - Whether the information that user types in the input field remains preserved in form field while the submission gets failed
     
     ***Note:** These information should be preserved until the user refreshes the page manually*
+
+- Email Template
+    -  Check whether email template is working properly in webmail & also OS based mail clients
+    
+    ***Note:** Customized font sizing & spacing based on style will not be working properly in mail client alone*
